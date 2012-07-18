@@ -20,6 +20,7 @@ end
 group :test do
   gem 'rspec'
   gem 'webrat'
+  gem 'spork'
 end
 # Gems used only for assets and not required
 # in production environments by default.
