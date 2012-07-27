@@ -84,6 +84,10 @@ Spork.prefork do
   # the seed, which is printed after each run.
   #     --seed 1234
     ActiveSupport::Dependencies.clear
+
+    def test_sign_in(user)
+      controller.sign_in(user)
+    end
   end
 end
 
