@@ -2,6 +2,7 @@ source 'https://rubygems.org'
 
 gem 'rails', '3.2.6'
 gem 'gravatar_image_tag'
+gem 'will_paginate'
 
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
@@ -17,6 +18,7 @@ end
 group :development do
   gem 'annotate', '2.4.1.beta1'
   gem 'rspec-rails'
+  gem 'faker'
 end
 
 group :test do
